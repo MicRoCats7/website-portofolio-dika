@@ -6,6 +6,7 @@ import Skill from "../components/shared/Skill"
 import Certificate from "../components/shared/Certificate"
 import Awards from "../components/shared/Awards"
 import { useEffect } from "react"
+import { Link } from "react-router-dom"
 
 function About() {
     useEffect(() => {
@@ -22,10 +23,18 @@ function About() {
                             based in Indonesia.
                         </h1>
                         <div className="flex items-center gap-9">
-                            <FaLinkedin size={30} />
-                            <FaGithub size={30} />
-                            <FaInstagram size={30} />
-                            <CiMail size={30} />
+                            <Link to="https://www.linkedin.com/in/akbarrizqullahputrasusanto/" target="_blank">
+                                <FaLinkedin size={30} />
+                            </Link>
+                            <Link to="https://github.com/Akbarrzql" target="_blank">
+                                <FaGithub size={30} />
+                            </Link>
+                            <Link to="https://www.instagram.com/akbarrzql/" target="_blank">
+                                <FaInstagram size={30} />
+                            </Link>
+                            <Link to='mailto:@akbarrizqullah228@gmail.com'>
+                                <CiMail size={30} />
+                            </Link>
                         </div>
                     </div>
                     <div>

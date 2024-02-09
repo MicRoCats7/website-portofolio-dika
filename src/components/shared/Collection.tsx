@@ -19,13 +19,13 @@ function Collection() {
     return (
         <>
             <Sheet>
-                <div className='grid grid-cols-3 w-full gap-10'>
-                    {portfolioData.projects.map((project) => (
-                        <SheetTrigger>
+                <SheetTrigger>
+                    <div className='grid grid-cols-3 w-full gap-10'>
+                        {portfolioData.projects.map((project) => (
                             <div
-                                className='w-[383px] shadow-md rounded-xl 
-                                hover:shadow-[0px_10px_30px_rgba(0,0,0,0.1),_0px_0px_30px_rgba(45,78,255,0.15)] 
-                                transition-all duration-400 ease-in-out'
+                                className='w-auto shadow-md rounded-xl 
+                            hover:shadow-[0px_10px_30px_rgba(0,0,0,0.1),_0px_0px_30px_rgba(45,78,255,0.15)] 
+                            transition-all duration-400 ease-in-out'
                                 key={project.id}
                                 onClick={() => handleProjectClick(project.id)}
                             >
@@ -35,9 +35,9 @@ function Collection() {
                                     <p className='text-base text-secondary-navy pb-11'>{project.description}</p>
                                 </div>
                             </div>
-                        </SheetTrigger>
-                    ))}
-                </div>
+                        ))}
+                    </div>
+                </SheetTrigger>
                 <SheetContent className='overflow-x-auto'>
                     {portfolioData.projects.map((project) => (
                         activeProjectId === project.id && (
@@ -61,8 +61,8 @@ function Collection() {
                                         {project?.technology?.map((tech, index) => (
                                             <div
                                                 className='flex items-center bg-white rounded-lg py-3 px-2 gap-1
-                                             hover:shadow-[0px_10px_30px_rgba(0,0,0,0.1),_0px_0px_30px_rgba(45,78,255,0.15)] 
-                                             transition-all duration-400 ease-in-out'
+                                         hover:shadow-[0px_10px_30px_rgba(0,0,0,0.1),_0px_0px_30px_rgba(45,78,255,0.15)] 
+                                         transition-all duration-400 ease-in-out'
                                                 key={index}
                                             >
                                                 <img src={tech.icon} alt="" className='w-[17px]' />
@@ -89,7 +89,7 @@ function Collection() {
                 </SheetContent>
             </Sheet >
         </>
-    )
+    );
 }
 
 export default Collection;

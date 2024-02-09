@@ -19,8 +19,75 @@ import iconMapbox from '../../src/assets/icons/iconsMapbox.svg'
 import iconMidtrans from '../../src/assets/icons/iconsMidtrans.svg'
 import iconPusher from '../../src/assets/icons/iconsPusher.svg'
 import iconGmaps from '../../src/assets/icons/iconsGmaps.svg'
+import iconsAndroid from '../../src/assets/icons/iconsAndroidSkill.svg'
+import iconsSwift from '../../src/assets/icons/iconsSwift.svg'
+import iconOpenAI from '../../src/assets/icons/iconsOpenAi.svg'
+
+//assets icon certificates
+import iconTokopedia from '../../src/assets/icons/iconTokopedia.svg'
+import iconDicoding from '../../src/assets/icons/iconsDicoding.svg'
+
+//assets icon awards 
+import iconGarudaHacks from '../../src/assets/icons/iconsGarudaHacks.svg'
+import iconDinacom from '../../src/assets/icons/iconsDinacom.svg'
 
 const portfolioData = {
+    skill: [
+        {
+            id: "1",
+            name: "Kotlin",
+            icon: iconKotlin,
+        },
+        {
+            id: "2",
+            name: "FLutter",
+            icon: iconFlutter,
+        },
+        {
+            id: "3",
+            name: "Dart",
+            icon: iconDart,
+        },
+        {
+            id: "4",
+            name: "Android",
+            icon: iconsAndroid,
+        },
+        {
+            id: "5",
+            name: "Firebase",
+            icon: iconFirebase,
+        },
+        {
+            id: "6",
+            name: "Swift",
+            icon: iconsSwift,
+        }
+    ],
+    certifate: [
+        {
+            id: "1",
+            title: "Android Apps performance Best Practice and Optimization",
+            icon: iconTokopedia,
+        },
+        {
+            id: "2",
+            title: "Menjadi Android Developer Expert",
+            icon: iconDicoding,
+        }
+    ],
+    awards: [
+        {
+            id: "1",
+            title: "Awarded Honorable Mention Sustainability Hack of Garuda Hacks 4.0",
+            icon: iconGarudaHacks,
+        },
+        {
+            id: "2",
+            title: "1rd Winner DINUS APPLICATION COMPETITION (DINACOM) 2023",
+            icon: iconDinacom,
+        }
+    ],
     projects: [
         {
             id: "1",
@@ -65,7 +132,7 @@ const portfolioData = {
                 },
                 {
                     name: "OpenAi",
-                    icon: iconDart,
+                    icon: iconOpenAI,
                 },
                 {
                     name: "Laravel",

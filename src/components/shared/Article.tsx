@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/carousel";
 import portfolioData from '../../lib/data';
 import { Link } from "react-router-dom";
-import { Progress } from "../ui/progress";
+import { GoArrowUpRight } from "react-icons/go";
 
 function Article() {
   return (
@@ -24,18 +24,19 @@ function Article() {
                     <h1 className="text-secondary-navy font-medium text-[28px] py-2">
                       {article.title}
                     </h1>
-                    <Link to={article.link}>
-                      <p className="text-base text-secondary-navy pb-7 pt-16">
+                    <Link to={article.link} className="flex items-center pb-7 pt-16 gap-3">
+                      <p className="text-base text-secondary-navy">
                         Baca Artikel Selengkapnya
                       </p>
+                      <GoArrowUpRight size={23} className="text-base text-secondary-navy" />
                     </Link>
                   </div>
                 </div>
               </CarouselItem>
             ))}
           </CarouselContent>
-          <Progress value={33} className="h-[5px] bg-[#D9D9D9] rounded-full" />
-          <div className="absolute -bottom-10 right-20">
+          {/* <Progress value={88} className="h-[5px] bg-[#D9D9D9] rounded-full" /> */}
+          <div className="absolute bottom-10 right-20">
             <CarouselPrevious />
             <CarouselNext />
           </div>
