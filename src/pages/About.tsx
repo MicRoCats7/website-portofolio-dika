@@ -1,18 +1,22 @@
 import { CiMail } from "react-icons/ci"
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa"
 import imgFotoAbout from "../assets/images/PORTOFOLIO (1) 1.png"
-import CardAbout from "../components/CardAbout"
-import Skill from "../components/Skill"
-import Certificate from "../components/Certificate"
-import Awards from "../components/Awards"
+import CardAbout from "../components/shared/CardAbout"
+import Skill from "../components/shared/Skill"
+import Certificate from "../components/shared/Certificate"
+import Awards from "../components/shared/Awards"
+import { useEffect } from "react"
 
 function About() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
     return (
         <div className="wrapper">
             <section>
                 <div className="flex items-center justify-between">
                     <div className="flex flex-col">
-                        <h1 className="text-5xl text-secondary font-medium leading-normal">
+                        <h1 className="text-5xl text-secondary-navy font-medium leading-normal">
                             Hi, I'm Akbar. <br />
                             I'm a Software Engineer Android <br />
                             based in Indonesia.

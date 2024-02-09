@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Navbar from './components/Navbar'
+import Navbar from './components/shared/Navbar'
 import About from './pages/About'
-import Footer from './components/Footer'
+import Footer from './components/shared/Footer'
 import Project from './pages/Project'
 
 function App() {
