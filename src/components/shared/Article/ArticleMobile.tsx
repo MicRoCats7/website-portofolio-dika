@@ -14,10 +14,10 @@ function ArticleMobile() {
         <>
             <Carousel className="mb-20">
                 <div className="relative">
-                    <CarouselContent className="pb-20">
+                    <CarouselContent className="pb-20 pr-5">
                         {portfolioData.article.map((article, index) => (
                             <CarouselItem key={index}>
-                                <div className="w-[383px] shadow-lg rounded-xl hover:bg-[#00B245]/10 translate-x-3 transition-all 
+                                <div className="shadow-lg rounded-xl hover:bg-[#00B245]/10 translate-x-3 transition-all 
                 duration-500 ease-in-out
                 ">
                                     <div className="px-6">
