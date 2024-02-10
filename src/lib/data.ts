@@ -89,7 +89,7 @@ const portfolioData = {
             id: "2",
             title: "1rd Winner DINUS APPLICATION COMPETITION (DINACOM) 2023",
             icon: iconDinacom,
-            link: "https://www.linkedin.com/in/akbarrizqullahputrasusanto/overlay/1635544585499/single-media-viewer/?profileId=ACoAADdtMDEB6bAEjwmMmxWqfdQ8FwSfXuHAOT0"
+            link: "https://drive.google.com/file/d/15PCBVDASvBfZgQ3rEhdNYrQGBi9ZQ207/view?usp=sharing"
         }
     ],
     projects: [
