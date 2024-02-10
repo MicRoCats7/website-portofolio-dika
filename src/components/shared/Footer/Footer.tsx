@@ -1,6 +1,6 @@
 import { AiOutlineCopyright } from "react-icons/ai"
 
-function Footer() {
+function FooterWeb() {
     return (
         <>
             <hr />
@@ -14,4 +14,4 @@ function Footer() {
     )
 }
 
-export default Footer
+export default FooterWeb

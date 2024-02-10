@@ -1,8 +1,9 @@
 import { useEffect } from "react";
-import Article from "../components/shared/Article"
-import Collection from "../components/shared/Collection"
+import Collection from "@/components/shared/Collection";
+import Article from "@/components/shared/Article";
 
-function Project() {
+
+function ProjectWeb() {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, []);
@@ -22,4 +23,4 @@ function Project() {
   )
 }
 
-export default Project
+export default ProjectWeb

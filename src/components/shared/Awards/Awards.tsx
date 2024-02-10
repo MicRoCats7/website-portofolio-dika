@@ -1,6 +1,6 @@
 import portfolioData from '@/lib/data'
 
-function Awards() {
+function AwardsWeb() {
     return (
         <div className='flex flex-col gap-10'>
             <h3 className='font-medium text-[36px]'>Awards.</h3>
@@ -20,4 +20,4 @@ function Awards() {
     )
 }
 
-export default Awards
+export default AwardsWeb

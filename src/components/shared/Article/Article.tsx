@@ -5,11 +5,11 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import portfolioData from '../../lib/data';
+import portfolioData from '../../../lib/data';
 import { Link } from "react-router-dom";
 import { GoArrowUpRight } from "react-icons/go";
 
-function Article() {
+function ArticleWeb() {
   return (
     <>
       <Carousel className="mb-20">
@@ -46,4 +46,4 @@ function Article() {
   );
 }
 
-export default Article;
+export default ArticleWeb;

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom';
 
-function Navbar() {
+function NavbarWeb() {
     const location = useLocation();
     const [scrolled, setScrolled] = useState(false);
 
@@ -51,4 +51,4 @@ function NavLink({ to, label, currentTab, scrolled }: { to: string, label: strin
     );
 }
 
-export default Navbar
+export default NavbarWeb

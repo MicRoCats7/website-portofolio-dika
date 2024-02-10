@@ -1,14 +1,14 @@
 import { CiMail } from "react-icons/ci"
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa"
-import imgFotoAbout from "../assets/images/PORTOFOLIO (1) 1.png"
-import CardAbout from "../components/shared/CardAbout"
-import Skill from "../components/shared/Skill"
-import Certificate from "../components/shared/Certificate"
-import Awards from "../components/shared/Awards"
+import imgFotoAbout from "../../assets/images/PORTOFOLIO (1) 1.png"
 import { useEffect } from "react"
 import { Link } from "react-router-dom"
+import CardAbout from "@/components/shared/CardAbout"
+import Skill from "@/components/shared/Skill"
+import Certificate from "@/components/shared/Certificate"
+import Awards from "@/components/shared/Awards"
 
-function About() {
+function AboutWeb() {
     useEffect(() => {
         window.scrollTo(0, 0)
     }, []);
@@ -62,4 +62,4 @@ function About() {
     )
 }
 
-export default About
+export default AboutWeb

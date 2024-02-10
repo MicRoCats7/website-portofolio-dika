@@ -10,7 +10,7 @@ import {
 import { Link } from 'react-router-dom';
 import portfolioData from '@/lib/data';
 
-function Collection() {
+function CollectionWeb() {
     const [activeProjectId, setActiveProjectId] = useState("");
     const handleProjectClick = (projectId: string) => {
         setActiveProjectId(projectId);
@@ -92,4 +92,4 @@ function Collection() {
     );
 }
 
-export default Collection;
+export default CollectionWeb;

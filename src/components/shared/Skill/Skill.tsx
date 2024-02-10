@@ -1,6 +1,6 @@
 import portfolioData from '@/lib/data'
 
-function Skill() {
+function SkillWeb() {
     return (
         <div className='flex flex-col gap-10'>
             <h3 className='font-medium text-[36px]'>Skill & Technology.</h3>
@@ -21,4 +21,4 @@ function Skill() {
     )
 }
 
-export default Skill
+export default SkillWeb
