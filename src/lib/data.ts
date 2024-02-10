@@ -69,11 +69,13 @@ const portfolioData = {
             id: "1",
             title: "Android Apps performance Best Practice and Optimization",
             icon: iconTokopedia,
+            link: "https://drive.google.com/file/d/1YV06AvRlheu6uT05AUz4nmU5YxeqpwLZ/view"
         },
         {
             id: "2",
             title: "Menjadi Android Developer Expert",
             icon: iconDicoding,
+            link: "https://www.dicoding.com/certificates/KEXLL93MWXG2"
         }
     ],
     awards: [
@@ -81,11 +83,13 @@ const portfolioData = {
             id: "1",
             title: "Awarded Honorable Mention Sustainability Hack of Garuda Hacks 4.0",
             icon: iconGarudaHacks,
+            link: "https://drive.google.com/file/d/1IhKb3s1FBQloSzY1i4UbBe3G_YuwoYlL/view"
         },
         {
             id: "2",
             title: "1rd Winner DINUS APPLICATION COMPETITION (DINACOM) 2023",
             icon: iconDinacom,
+            link: "https://www.linkedin.com/in/akbarrizqullahputrasusanto/overlay/1635544585499/single-media-viewer/?profileId=ACoAADdtMDEB6bAEjwmMmxWqfdQ8FwSfXuHAOT0"
         }
     ],
     projects: [
@@ -280,24 +284,8 @@ const portfolioData = {
     ],
     article: [
         {
-            title: "How to use React Context API",
-            link: "https://www.google.com",
-        },
-        {
-            title: "How to use React Context API",
-            link: "https://www.google.com",
-        },
-        {
-            title: "How to use React Context API",
-            link: "https://www.google.com",
-        },
-        {
-            title: "How to use React Context API",
-            link: "https://www.google.com",
-        },
-        {
-            title: "How to use React Context API",
-            link: "https://www.google.com",
+            title: "Dynamic Color in Android",
+            link: "https://medium.com/@akbarrzql/dynamic-color-in-android-ad712638fd50",
         },
     ],
 };
