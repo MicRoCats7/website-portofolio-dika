@@ -131,7 +131,7 @@ const portfolioData = {
                     icon: iconDart,
                 },
                 {
-                    name: "ML",
+                    name: "ML Kit",
                     icon: iconMLKIT,
                 },
                 {
@@ -278,6 +278,10 @@ const portfolioData = {
                     name: "Firebase",
                     icon: iconFirebase,
                 },
+                {
+                    name: "ML Kit",
+                    icon: iconMLKIT
+                }
             ],
             image: KirimPesan,
         },
